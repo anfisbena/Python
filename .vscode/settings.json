@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "MINTIC/Java/primer_proyecto/src",
+        "MINTIC/Java/CuotaPrestamoGUI/src",
+        "MINTIC/Java/ejercicio1/src"
+    ]
+}
