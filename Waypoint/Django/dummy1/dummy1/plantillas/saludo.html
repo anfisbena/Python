@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1> Hola {{nombre}} {{apellido}}, estamos viendo nuestra primera plantilla </h1>
+        <p> vamos a ver los siguientes temas</p>
+        <p>nos vamos a enfocar en {{temas.1}}</p>
+        <p>
+            <h3> los temas son los siguientes</h3>
+                {%if temas%}
+                    {%for i in temas%}
+                        <li>{{i}}</li>
+                    {%endfor %}
+                {%else%}
+                    <p>no hay elementos a mostrar</p>
+                {%endif%}
+        </p>
+    </body>
+</html>
