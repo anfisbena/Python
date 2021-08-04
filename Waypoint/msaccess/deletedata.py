@@ -15,3 +15,6 @@ try:
 
 except pyodbc.error as e:
     print('connection error', e)
+
+cursor.close()
+conn.close()
